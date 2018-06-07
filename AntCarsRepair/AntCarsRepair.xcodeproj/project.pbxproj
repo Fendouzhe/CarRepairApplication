@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BC67D547AFF0F2D3ED81D82 /* libPods-AntCarsRepair.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1EF478C71B4199A33642B9 /* libPods-AntCarsRepair.a */; };
 		8C02C58520C916E6000959D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C02C58420C916E6000959D8 /* AppDelegate.m */; };
-		8C02C58820C916E6000959D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C02C58720C916E6000959D8 /* ViewController.m */; };
-		8C02C58B20C916E6000959D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C02C58920C916E6000959D8 /* Main.storyboard */; };
 		8C02C58D20C916E6000959D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C02C58C20C916E6000959D8 /* Assets.xcassets */; };
 		8C02C59020C916E6000959D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C02C58E20C916E6000959D8 /* LaunchScreen.storyboard */; };
 		8C02C59320C916E6000959D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C02C59220C916E6000959D8 /* main.m */; };
+		8C02C5BB20C922AF000959D8 /* LRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C02C5BA20C922AF000959D8 /* LRHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1EF478C71B4199A33642B9 /* libPods-AntCarsRepair.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AntCarsRepair.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8693D19CB899EA492625AB /* Pods-AntCarsRepair.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntCarsRepair.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntCarsRepair/Pods-AntCarsRepair.release.xcconfig"; sourceTree = "<group>"; };
 		8C02C58020C916E6000959D8 /* AntCarsRepair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntCarsRepair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C02C58320C916E6000959D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C02C58420C916E6000959D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C02C58620C916E6000959D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C02C58720C916E6000959D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8C02C58A20C916E6000959D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C02C58C20C916E6000959D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C02C58F20C916E6000959D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C02C59120C916E6000959D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C02C59220C916E6000959D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C02C5B920C922AF000959D8 /* LRHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRHomeViewController.h; sourceTree = "<group>"; };
+		8C02C5BA20C922AF000959D8 /* LRHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRHomeViewController.m; sourceTree = "<group>"; };
+		ACFB839C97FD67005501D83E /* Pods-AntCarsRepair.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntCarsRepair.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntCarsRepair/Pods-AntCarsRepair.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC67D547AFF0F2D3ED81D82 /* libPods-AntCarsRepair.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,8 @@
 			children = (
 				8C02C58220C916E6000959D8 /* AntCarsRepair */,
 				8C02C58120C916E6000959D8 /* Products */,
+				D48A6EAC3EB901F3F5430497 /* Pods */,
+				D56021F27B21112B458C51E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +65,271 @@
 			children = (
 				8C02C58320C916E6000959D8 /* AppDelegate.h */,
 				8C02C58420C916E6000959D8 /* AppDelegate.m */,
-				8C02C58620C916E6000959D8 /* ViewController.h */,
-				8C02C58720C916E6000959D8 /* ViewController.m */,
-				8C02C58920C916E6000959D8 /* Main.storyboard */,
+				8C02C59B20C92016000959D8 /* Classes */,
+				8C02C5B820C920A4000959D8 /* Supporting Files */,
+			);
+			path = AntCarsRepair;
+			sourceTree = "<group>";
+		};
+		8C02C59B20C92016000959D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5A420C92016000959D8 /* Login */,
+				8C02C5A820C92016000959D8 /* Main */,
+				8C02C59C20C92016000959D8 /* HomePage */,
+				8C02C5B420C92016000959D8 /* ShoppingMall */,
+				8C02C5A020C92016000959D8 /* Information */,
+				8C02C5B020C92016000959D8 /* MineCenter */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8C02C59C20C92016000959D8 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C59D20C92016000959D8 /* Controller */,
+				8C02C59E20C92016000959D8 /* Model */,
+				8C02C59F20C92016000959D8 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		8C02C59D20C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5B920C922AF000959D8 /* LRHomeViewController.h */,
+				8C02C5BA20C922AF000959D8 /* LRHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C59E20C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C59F20C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5A020C92016000959D8 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5A120C92016000959D8 /* Controller */,
+				8C02C5A220C92016000959D8 /* Model */,
+				8C02C5A320C92016000959D8 /* View */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		8C02C5A120C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C5A220C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C5A320C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5A420C92016000959D8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5A520C92016000959D8 /* Controller */,
+				8C02C5A620C92016000959D8 /* Model */,
+				8C02C5A720C92016000959D8 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8C02C5A520C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C5A620C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C5A720C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5A820C92016000959D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5A920C92016000959D8 /* Category */,
+				8C02C5AA20C92016000959D8 /* Controller */,
+				8C02C5AB20C92016000959D8 /* Lib */,
+				8C02C5AC20C92016000959D8 /* Model */,
+				8C02C5AD20C92016000959D8 /* Other */,
+				8C02C5AE20C92016000959D8 /* Tool */,
+				8C02C5AF20C92016000959D8 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8C02C5A920C92016000959D8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8C02C5AA20C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C5AB20C92016000959D8 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		8C02C5AC20C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C5AD20C92016000959D8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8C02C5AE20C92016000959D8 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8C02C5AF20C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5B020C92016000959D8 /* MineCenter */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5B120C92016000959D8 /* Controller */,
+				8C02C5B220C92016000959D8 /* Model */,
+				8C02C5B320C92016000959D8 /* View */,
+			);
+			path = MineCenter;
+			sourceTree = "<group>";
+		};
+		8C02C5B120C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C5B220C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C5B320C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5B420C92016000959D8 /* ShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+				8C02C5B520C92016000959D8 /* Controller */,
+				8C02C5B620C92016000959D8 /* Model */,
+				8C02C5B720C92016000959D8 /* View */,
+			);
+			path = ShoppingMall;
+			sourceTree = "<group>";
+		};
+		8C02C5B520C92016000959D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8C02C5B620C92016000959D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C02C5B720C92016000959D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C02C5B820C920A4000959D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8C02C58C20C916E6000959D8 /* Assets.xcassets */,
 				8C02C58E20C916E6000959D8 /* LaunchScreen.storyboard */,
 				8C02C59120C916E6000959D8 /* Info.plist */,
 				8C02C59220C916E6000959D8 /* main.m */,
 			);
-			path = AntCarsRepair;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48A6EAC3EB901F3F5430497 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACFB839C97FD67005501D83E /* Pods-AntCarsRepair.debug.xcconfig */,
+				5A8693D19CB899EA492625AB /* Pods-AntCarsRepair.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D56021F27B21112B458C51E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C1EF478C71B4199A33642B9 /* libPods-AntCarsRepair.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C02C59620C916E6000959D8 /* Build configuration list for PBXNativeTarget "AntCarsRepair" */;
 			buildPhases = (
+				B18BAC54E1425783B670F3AC /* [CP] Check Pods Manifest.lock */,
 				8C02C57C20C916E6000959D8 /* Sources */,
 				8C02C57D20C916E6000959D8 /* Frameworks */,
 				8C02C57E20C916E6000959D8 /* Resources */,
+				B09C4C9BED98690DDF8EC4FD /* [CP] Embed Pods Frameworks */,
+				F1A34617FCF0E47384E88377 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,19 +395,66 @@
 			files = (
 				8C02C59020C916E6000959D8 /* LaunchScreen.storyboard in Resources */,
 				8C02C58D20C916E6000959D8 /* Assets.xcassets in Resources */,
-				8C02C58B20C916E6000959D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B09C4C9BED98690DDF8EC4FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntCarsRepair/Pods-AntCarsRepair-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18BAC54E1425783B670F3AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1A34617FCF0E47384E88377 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntCarsRepair/Pods-AntCarsRepair-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C02C57C20C916E6000959D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C02C58820C916E6000959D8 /* ViewController.m in Sources */,
 				8C02C59320C916E6000959D8 /* main.m in Sources */,
+				8C02C5BB20C922AF000959D8 /* LRHomeViewController.m in Sources */,
 				8C02C58520C916E6000959D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +462,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8C02C58920C916E6000959D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8C02C58A20C916E6000959D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8C02C58E20C916E6000959D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,13 +579,15 @@
 		};
 		8C02C59720C916E6000959D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFB839C97FD67005501D83E /* Pods-AntCarsRepair.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QLCGED959;
-				INFOPLIST_FILE = AntCarsRepair/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AntCarsRepair/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tech.ant.AntCarsRepair;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.ant.qcwx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -290,13 +595,15 @@
 		};
 		8C02C59820C916E6000959D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8693D19CB899EA492625AB /* Pods-AntCarsRepair.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9QLCGED959;
-				INFOPLIST_FILE = AntCarsRepair/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AntCarsRepair/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tech.ant.AntCarsRepair;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.ant.qcwx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

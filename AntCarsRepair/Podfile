@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '8.0'
+
+target 'AntCarsRepair' do
+    
+    pod 'AFNetworking', '~> 3.2.1'
+    pod 'SDWebImage', '~> 4.4.0'
+    pod 'MBProgressHUD', '~> 1.1.0'
+    pod 'Masonry', '~> 1.1.0'
+    pod 'MJExtension', '~> 3.0.15'
+    pod 'MJRefresh', '~> 3.1.15.3'
+
+end

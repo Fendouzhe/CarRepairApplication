@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LRHomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    LRHomeViewController *vc = [[LRHomeViewController alloc] init];
+    vc.title = @"首页";
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
