@@ -10,4 +10,8 @@
 
 @interface UIFont (Font)
 
++ (instancetype)LR_systemFontOfSize:(CGFloat)fontSize;
+
++ (instancetype)LR_boldSystemFontOfSize:(CGFloat)fontSize;
+
 @end

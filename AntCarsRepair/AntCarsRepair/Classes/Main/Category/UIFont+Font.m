@@ -7,21 +7,48 @@
 //
 
 #import "UIFont+Font.h"
-#import <objc/message.h>
 
 @implementation UIFont (Font)
 
-+ (void)load{
-    
-    Method meth0 = class_getClassMethod([UIFont class], @selector(systemFontOfSize:));
-    Method methd1 = class_getClassMethod([UIFont class], @selector(LR_systemFontOfSize:));
-    method_exchangeImplementations(meth0, methd1);
+//+ (void)load{
+//
+//    ///正常
+//    Method meth0 = class_getClassMethod([UIFont class], @selector(systemFontOfSize:));
+//    Method methd1 = class_getClassMethod([UIFont class], @selector(LR_systemFontOfSize:));
+//    method_exchangeImplementations(meth0, methd1);
+//
+//    ///粗体
+//    Method method2 = class_getClassMethod([UIFont class], @selector(boldSystemFontOfSize:));
+//    Method method3 = class_getClassMethod([UIFont class], @selector(LR_boldSystemFontOfSize:));
+//    method_exchangeImplementations(method2, method3);
+//
+//}
+//
+//
+//+ (instancetype)LR_systemFontOfSize:(CGFloat)fontSize{
+//
+//    CGFloat with = [UIScreen mainScreen].bounds.size.width;
+//    if (with == 375) {
+//        fontSize += 1.5f;
+//    }else if (with == 414){
+//        fontSize += 3.0f;
+//    }
+//    UIFont *font = [UIFont LR_systemFontOfSize:fontSize];
+//    return font;
+//}
+//
+//+ (instancetype)LR_boldSystemFontOfSize:(CGFloat)fontSize{
+//
+//    CGFloat with = [UIScreen mainScreen].bounds.size.width;
+//    if (with == 375) {
+//        fontSize += 1.5f;
+//    }else if (with == 414){
+//        fontSize += 3.0f;
+//    }
+//    UIFont *font = [UIFont LR_boldSystemFontOfSize:fontSize];
+//    return font;
+//}
 
-    Method method2 = class_getClassMethod([UIFont class], @selector(boldSystemFontOfSize:));
-    Method method3 = class_getClassMethod([UIFont class], @selector(LR_boldSystemFontOfSize:));
-    method_exchangeImplementations(method2, method3);
-    
-}
 
 
 + (instancetype)LR_systemFontOfSize:(CGFloat)fontSize{
@@ -32,7 +59,7 @@
     }else if (with == 414){
         fontSize += 3.0f;
     }
-    UIFont *font = [UIFont LR_boldSystemFontOfSize:fontSize];
+    UIFont *font = [UIFont systemFontOfSize:fontSize];
     return font;
 }
 
@@ -44,7 +71,7 @@
     }else if (with == 414){
         fontSize += 3.0f;
     }
-    UIFont *font = [UIFont LR_boldSystemFontOfSize:fontSize];
+    UIFont *font = [UIFont boldSystemFontOfSize:fontSize];
     return font;
 }
 
